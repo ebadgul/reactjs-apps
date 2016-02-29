@@ -81,7 +81,7 @@
 
        var contacts = [
             {
-                "name": "Contact 1",
+                "name": "Contact Ebad",
                 "address": "123 Test St",
                 "phone_number": "132-3212"
             },
