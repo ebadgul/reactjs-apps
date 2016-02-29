@@ -79,9 +79,10 @@
           }
       });
 
+
        var contacts = [
-            {
-                "name": "Contact Ebad",
+           {
+                "name": "Contact 1",
                 "address": "123 Test St",
                 "phone_number": "132-3212"
             },
@@ -99,7 +100,7 @@
             },
 
             {
-                "name": "Contact 4678",
+                "name": "Contact 4",
                 "address": "49 Upper Street",
                 "phone_number": "934-4290"
             },
