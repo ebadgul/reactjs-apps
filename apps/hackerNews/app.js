@@ -7,6 +7,22 @@
                getInitialState: function() {
                    return { title: '', link: ''};
                 },
+                handleAdd: function(e){
+                    e.preventDefault();
+                    var title = this.state.title.trim();
+                    var link = this.state.link.trim();
+                    if(!title || !link){
+                        return;
+                    }
+                    this.props.addHandler(title, link);
+                    this.setState({status: ''})
+                },
+                handleAddTitle: function(e){
+                    this.setState({title: e.target.value});
+                },
+                handleAddLink: function(e) {
+                    this.setState({link: e.target.value});
+                },
                 render : function() {
                      return (
                        <form style={{marginTop: '30px'}}>
